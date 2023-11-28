@@ -1,0 +1,9 @@
+{
+  "type": "commonjs",
+  "name": "distance-query",
+  "version": "1.0.0",
+  "dependencies": {
+    "@turf/distance": "^6.5.0",
+    "ngeohash": "^0.6.3"
+  }
+}

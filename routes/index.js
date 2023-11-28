@@ -2,7 +2,7 @@
 
 const geohash = require('ngeohash');
 const distance = require('@turf/distance');
-const { cities } = tables;
+const { cell_updated } = databases.networkinsights;
 
 module.exports = async (server) => {
   // GET cities by distance

@@ -24,7 +24,7 @@ module.exports = async (server) => {
       neighbors.push(hash);
 
       //execute starts_with search on all hashes
-      let search_results = await cities.search({
+      let search_results = await cell_updated.search({
         conditions: neighbors.map((value) => ({
           attribute: 'geo_hash',
           comparator: 'starts_with',

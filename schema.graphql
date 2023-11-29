@@ -1,4 +1,4 @@
 type cell_updated @table(database: "networkinsights"){
-    id: Any @primaryKey
-    geo_hash: String @indexed
+    GnbEnbld: Any @primaryKey
+    geo_data: String @indexed
 }
